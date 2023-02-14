@@ -419,6 +419,12 @@ video {
   display: none;
 }
 
+body {
+  background-image: url("../../images/bg-pattern.svg");
+  background-repeat: repeat;
+  background-position: center center;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
