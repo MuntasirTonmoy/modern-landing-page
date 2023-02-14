@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MuntasirTonmoy/modern-landing-page/issues"
   },
-  "homepage": "https://github.com/MuntasirTonmoy/modern-landing-page#readme"
+  "homepage": "https://github.com/MuntasirTonmoy/modern-landing-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  }
 }
