@@ -1,0 +1,20 @@
+{
+  "name": "modern landing page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuntasirTonmoy/modern-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuntasirTonmoy/modern-landing-page/issues"
+  },
+  "homepage": "https://github.com/MuntasirTonmoy/modern-landing-page#readme"
+}
