@@ -1,5 +1,6 @@
 @layer base {
   body {
+    padding-inline: 1rem;
     background-image: url("../../images/bg-pattern.svg");
     background-repeat: repeat;
     background-position: center center;
