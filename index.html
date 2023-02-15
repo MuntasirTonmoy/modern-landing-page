@@ -28,11 +28,61 @@
         <!-- /Logo -->
 
         <!-- Navigation -->
-        <div class="w-1/2 xl:w-1/3"></div>
+        <div class="w-full xl:w-1/3 flex order-last xl:order-none">
+          <ul
+            class="navigation flex-col xl:flex-row flex justify-center gap-x-20 gap-y-6 xl:gap-y-0 mt-12 xl:mt-0"
+          >
+            <li>
+              <a class="text-gray-500 hover:text-gray-900 font-medium" href=""
+                >Products</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-500 hover:text-gray-900 font-medium" href=""
+                >Features</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-500 hover:text-gray-900 font-medium" href=""
+                >Resources</a
+              >
+            </li>
+            <li>
+              <a class="text-gray-500 hover:text-gray-900 font-medium" href=""
+                >Pricing</a
+              >
+            </li>
+          </ul>
+        </div>
         <!-- /Navigation -->
 
         <!-- Header cta -->
-        <div class="w-1/2 xl:w-1/3"></div>
+        <div class="w-1/2 xl:w-1/3 flex justify-end items-center">
+          <a
+            class="hidden xl:inline-block text-gray-500 hover:text-blue-500 font-medium mr-4 text-sm"
+            href=""
+            >Log In</a
+          >
+          <a class="hidden xl:inline-block btn btn-sm btn-primary" href=""
+            >Sign Up</a
+          >
+          <span
+            class="menu-toggle xl:hidden w-12 h-12 bg-blue-500 rounded flex justify-center items-center text-white/75 cursor-pointer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+            >
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                fill="currentColor"
+                d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"
+              />
+            </svg>
+          </span>
+        </div>
         <!-- /Header cta -->
       </nav>
     </header>
