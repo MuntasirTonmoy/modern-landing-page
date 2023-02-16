@@ -776,6 +776,12 @@ body {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:static {
     position: static;
